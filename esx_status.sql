@@ -1,3 +1,3 @@
-USE `essentialmode`;
+USE `fivem2337`;
 
 ALTER TABLE `users` ADD COLUMN `status` LONGTEXT NULL;
