@@ -68,7 +68,7 @@ AddEventHandler('esx_status:update', function(status)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	
-	if _source ~= nil then
+	if xPlayer ~= nil then
 		xPlayer.set('status', status)
 	else
 		print('esx_status: the source was nil!')
